@@ -100,8 +100,9 @@ img.card-img-top{
         /* background:transparent !important; */
     }
     .cardtitle{   
-      background:white;
-      color: gray;
+      /* background:white; */
+      /* color: gray; */
+      color: #fff;
     }
     .cardsubtitle{
       /* background:black; */

@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+div label {
+  color: #004D5A;
+  font-size: 20px;
+}
+
+#contactForm div input[type="text"], .form-control:focus {
+  color: #0a9bac;
+  font-size: 20px;
+}
+
+#contactForm .btn-secondary {
+  background-color: rgb(25, 44, 52);
+}
