@@ -17,7 +17,7 @@ const Graphicdesign = (props) => {
 </Container>
       
       
-      <Container className ="Card" >
+      <Container>
 {/* <Row>
   <Col xs="3" className='grid-example'></Col>
   <Col xs="3" className='grid-example' style={{background:"white", height:"250px" }}></Col>
@@ -33,10 +33,10 @@ const Graphicdesign = (props) => {
 </Row>
 
 <Row style={{marginBottom:"10%"}}>
-  <Col xs="3" className='example5'><GraphicDesignCards astyle = {{background:"blue"}} image={"https://i.imgur.com/Nkw549C.jpg"} workPlace ={"Met Media"} frontTitle={"First Full Page"}  title={"First Full Page Ad"}/></Col>
-  <Col xs="3" className='example6 small'><GraphicDesignCardSmall image={"https://i.imgur.com/9BkjaAu.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Emmy Winning Newscast"}/></Col>
-  <Col xs="3" className='example7 small'><GraphicDesignCardSmall image={"https://i.imgur.com/1ehfECm.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Spanish Newscast"}/></Col>
-  <Col xs="3" className='example8 small'><GraphicDesignCardSmall image={"https://i.imgur.com/nd0DV9p.png"} workPlace ={"Met Media"} frontTitle={"SES Logo"} title={"Logo For The Student Economic Society"}/></Col>
+  <Col xs="3" className='example5'><GraphicDesignCards style = {{background:"blue"}} image={"https://i.imgur.com/Nkw549C.jpg"} workPlace ={"Met Media"} frontTitle={"First Full Page"}  title={"First Full Page Ad"}/></Col>
+  <Col xs="3" className='example6'><GraphicDesignCardSmall image={"https://i.imgur.com/9BkjaAu.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Emmy Winning Newscast"}/></Col>
+  <Col xs="3" className='example7'><GraphicDesignCardSmall image={"https://i.imgur.com/1ehfECm.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Spanish Newscast"}/></Col>
+  <Col xs="3" className='example8'><GraphicDesignCardSmall image={"https://i.imgur.com/nd0DV9p.png"} workPlace ={"Met Media"} frontTitle={"SES Logo"} title={"Logo For The Student Economic Society"}/></Col>
 </Row >
 </Container>
 </div>

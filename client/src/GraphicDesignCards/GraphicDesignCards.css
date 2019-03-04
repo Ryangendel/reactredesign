@@ -1,10 +1,28 @@
 
+    .card-box {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    div.card-box {
+        padding: 10px 0px 10px 20px;
+        background: #f1f1f1;
+        background: #034c58;
+        color: #fff;
+        /* background: #efefef; */
+    }
+
+    .card-img-top {
+        height: 350px;
+    }
+    
     h6.adsLargeSub.card-subtitle{
-        background:white;
+        /* background:white; */
     }
 
     h5.adsLargeTit.card-title{
-        background:white;
+        /* background:white; */
     }
     /* adsLargeSub
     adsLargeTit */
@@ -14,27 +32,22 @@
         margin-top:5px;
     }
     .example5 div.card {
-        height:230px !important;
-        
+        /* height:230px !important; */
      }
      .example4 div.card {
-         height:250px !important;
-         
+         /* height:250px !important; */
       }
  
       .example3 div.card {
-         height:230px !important;
-         
+         /* height:230px !important; */
       }
  
       .example2 div.card {
-         height:240px !important;
-         
+         /* height:240px !important; */
       }
  
       .example1 div.card {
-         height:250px !important;
-         
+         /* height:250px !important; */
       }
     }
   
@@ -43,60 +56,50 @@
             background:blue !important;
         } */
    
-      
         div.card-body{
-            background:transparent !important;
+            /* background:transparent !important; */
         }
         h6.adsLargeSub.card-subtitle{
-            background:white;
+            /* background:white; */
             font-size:80%;
         }
     
         h5.adsLargeTit.card-title{
-            background:white;
+            /* background:white; */
             font-size:300%;
         }
-
     
-    .example5 div.card {
-        height:170px !important;
-        
-     }
-     .example4 div.card {
-         height:170px !important;
-         
-      }
- 
-      .example3 div.card {
-         height:170px !important;
-         
-      }
- 
-      .example2 div.card {
-         height:170px !important;
-         
-      }
- 
-      .example1 div.card {
-         height:170px !important;
-         
-      }
-        
-
-        
+        .example5 div.card {
+            /* height:170px !important; */
+        }
+        .example4 div.card {
+            /* height:170px !important; */
+            
+        }
+    
+        .example3 div.card {
+            /* height:170px !important; */
+        }
+    
+        .example2 div.card {
+            /* height:170px !important; */
+        }
+    
+        .example1 div.card {
+            /* height:170px !important; */
+        }        
       }
 
       @media only screen and (max-width: 455px) {
         h5.adsLargeTit.card-title{
-            background:white;
+            /* background:white; */
             font-size:300%;
         }
 
        .example4{
            display:none
        }
-       .example5{
+       .example5 {
         display:none
-    } 
-
+        } 
       }

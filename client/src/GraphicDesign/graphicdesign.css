@@ -1,53 +1,56 @@
+.example1 .card, .example2 .card, .example3 .card, .example4 .card, 
+.example5 .card, .example6 .card, .example7 .card, .example8 .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
 @media only screen and (max-width: 1092px) {
 
+    button.btn.btn-danger{
+        font-size:10px;
+    }
 
-button.btn.btn-danger{
-    font-size:10px;
-}
-
- 
-  .card-subtitle{
-        
-    display:none
-
-}
-
-
+    .card-subtitle{
+            
+        display:none
+    }
 }
   div.card{
-    height:300px !important;
+    /* height:300px !important; */
 }
 
 @media only screen and (max-width: 845px) {
 
     .card-title {
-        font-size:12px !important;
+        /* font-size:12px !important;
         font-weight: bold !important;
         line-height: 20px !important;
         
-        margin-left:-15px !important;
-        
-
+        margin-left:-15px !important; */
     }
 
+    .card-text{
+        font-size:0;
+    }
 
+    .card-subtitle{
+        font-size:10px;
+        display:none
+    }
 
-.card-text{
-    font-size:0;
-}
-
-.card-subtitle{
-    font-size:10px;
-    display:none
-
-}
-
-.card-body{
-    height:00px;
-}
-button.btn.btn-danger{
-    font-size:7px;
-}
+    .card-body{
+        height:00px;
+    }
+    button.btn.btn-danger{
+        font-size:7px;
+    }
 
     p {
         margin-left:-15px;
@@ -57,6 +60,6 @@ button.btn.btn-danger{
         display:none;
     }
     div.card{
-        height:170px !important;
+        /* height:170px !important; */
     }
   }
