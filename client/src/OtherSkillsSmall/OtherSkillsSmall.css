@@ -1,0 +1,14 @@
+/* span.card-title.grey-text.text-darken-4.activator{
+   font-size:15px !important;
+} */
+
+
+@media only screen and (max-width: 660px) {
+    span.card-title.grey-text.text-darken-4.activator{
+        font-size:15px !important;
+        line-height:20px !important;
+        
+     }
+     
+         
+}

@@ -1,0 +1,148 @@
+/* 
+
+img.card-img-top{
+    margin-top:0px;
+}
+
+@media only screen and (min-width: 1220px) {
+    .card.small{   
+        height:380px;
+        
+    } 
+}
+
+@media only screen and (min-width: 1019px) {
+    .card.small{   
+        height:355px;
+        
+    } 
+}
+
+@media only screen and (min-width: 830px) {
+    .card.small{   
+        height:340px;
+        
+    } 
+} */
+.example8 div.small.cardbody.card{
+    height:350px !important;
+    /* background:blue; */
+}
+/* .cardbody.small{
+    height:310px;
+} */
+
+@media only screen and (min-width: 1062px) {
+
+    .example8 div.small.cardbody.card{
+        height:350px !important;
+        /* background:blue; */
+    }
+}
+
+
+
+@media only screen and (max-width: 1022px) {
+ 
+    div.card-body{
+        background:transparent !important;
+    }
+    div.small.cardbody.card{
+        height:200px !important;
+        /* background:blue; */
+    }
+    .example8 div.small.cardbody.card{
+        height:200px !important;
+        /* background:blue; */
+    }
+    
+    p.card-text{
+        display:none !important;
+    }
+    img.card-img-top{
+        margin-top:10px !important;
+    }
+    div.card-body{
+        padding-top:10px !important;
+        padding-bottom:0px ! important;
+    }
+
+    .card.small{
+        height:235px;
+    }
+
+    .cardtitle{   
+        /* background:black; */
+        color: gray;
+        font-size:100% !important;    
+    }
+
+    .cardsubtitle{
+        /* background:black; */
+        color: darkgray;
+        font-size:100% !important;
+        text-align:center;
+        margin-bottom:5px;
+    }
+    h5.cardtitle.card-title{
+       font-size: 200% !important; 
+  }
+  h6.cardsubtitle.card-subtitle{
+      font-size:120% !important;
+      margin-bottom:10px;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+   
+
+
+  div.card-body{
+      background:transparent !important;
+  }
+  .cardtitle{   
+      background:white;
+      color: gray;
+  }
+  .cardsubtitle{
+      /* background:black; */
+  }
+  .card.small{
+      margin-top:30px;
+        height:500px;
+}
+  h5.cardtitle.card-title{
+      
+    font-size: 150% !important;
+}
+h6.cardsubtitle.card-subtitle{
+   
+    display:none;
+}
+button.btn.btn-danger{
+    margin-top: 5px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+   
+    h5.cardtitle.card-title{
+        font-size: 150% !important;
+    }
+    h6.cardsubtitle.card-subtitle{
+        font-size:90% !important;
+    }
+
+button.btn.btn-danger{
+    margin-left:-7px !important;
+}
+
+.card-img-top{
+    margin:0px !important;
+}
+  .card-body{
+      padding-top:0px !important;
+  }    
+
+}

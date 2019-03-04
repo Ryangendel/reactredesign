@@ -1,0 +1,102 @@
+
+    h6.adsLargeSub.card-subtitle{
+        background:white;
+    }
+
+    h5.adsLargeTit.card-title{
+        background:white;
+    }
+    /* adsLargeSub
+    adsLargeTit */
+      
+    @media only screen and (max-width: 1152px) {    
+    button.btn.btn-danger{
+        margin-top:5px;
+    }
+    .example5 div.card {
+        height:230px !important;
+        
+     }
+     .example4 div.card {
+         height:250px !important;
+         
+      }
+ 
+      .example3 div.card {
+         height:230px !important;
+         
+      }
+ 
+      .example2 div.card {
+         height:240px !important;
+         
+      }
+ 
+      .example1 div.card {
+         height:250px !important;
+         
+      }
+    }
+  
+    @media only screen and (max-width: 845px) {
+        /* .example5 > div > .card > .card-body{
+            background:blue !important;
+        } */
+   
+      
+        div.card-body{
+            background:transparent !important;
+        }
+        h6.adsLargeSub.card-subtitle{
+            background:white;
+            font-size:80%;
+        }
+    
+        h5.adsLargeTit.card-title{
+            background:white;
+            font-size:300%;
+        }
+
+    
+    .example5 div.card {
+        height:170px !important;
+        
+     }
+     .example4 div.card {
+         height:170px !important;
+         
+      }
+ 
+      .example3 div.card {
+         height:170px !important;
+         
+      }
+ 
+      .example2 div.card {
+         height:170px !important;
+         
+      }
+ 
+      .example1 div.card {
+         height:170px !important;
+         
+      }
+        
+
+        
+      }
+
+      @media only screen and (max-width: 455px) {
+        h5.adsLargeTit.card-title{
+            background:white;
+            font-size:300%;
+        }
+
+       .example4{
+           display:none
+       }
+       .example5{
+        display:none
+    } 
+
+      }

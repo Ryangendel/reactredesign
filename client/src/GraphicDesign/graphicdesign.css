@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1092px) {
+
+
+button.btn.btn-danger{
+    font-size:10px;
+}
+
+ 
+  .card-subtitle{
+        
+    display:none
+
+}
+
+
+}
+  div.card{
+    height:300px !important;
+}
+
+@media only screen and (max-width: 845px) {
+
+    .card-title {
+        font-size:12px !important;
+        font-weight: bold !important;
+        line-height: 20px !important;
+        
+        margin-left:-15px !important;
+        
+
+    }
+
+
+
+.card-text{
+    font-size:0;
+}
+
+.card-subtitle{
+    font-size:10px;
+    display:none
+
+}
+
+.card-body{
+    height:00px;
+}
+button.btn.btn-danger{
+    font-size:7px;
+}
+
+    p {
+        margin-left:-15px;
+        font-size: 10px;
+      }
+    i.right{
+        display:none;
+    }
+    div.card{
+        height:170px !important;
+    }
+  }
