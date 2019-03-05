@@ -36,6 +36,68 @@ div label {
   fill: currentColor;
   fill: #0a9bac;
 }
-.icon-linkedin-square {
-  width: 0.857421875em;
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.icon:hover {
+  background: #000;
+}
+
+.email:hover {
+  color: #000;
+  background: #fff;
+}
+
+footer .footer-copyright:hover div a {
+  text-decoration: none;
+}
+
+.sectionTitles {
+  text-align: center; 
+  font-size: 4em;
+  margin-bottom: 20px;
+  letter-spacing: -6px; 
+  color: #1d2c33;
+}
+
+#contact {
+  padding: 60px;
+}
+
+.page-footer ul {
+  /* margin-left: 40px; */
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #contact .sectionTitles {
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+
+  #contact {
+    padding: 15px;
+  }
+
+  #contactForm div input[type="text"], .form-control:focus {
+    color: #0a9bac;
+    font-size: 12px;
+  }
+
+  div label {
+    color: #004D5A;
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .inside {
+    margin-left: 20px;
+  }
 }
