@@ -154,7 +154,7 @@ blur={{ min: -45, max: 45 }}
           <li>
             
               <img src="https://img.icons8.com/metro/1600/github.png" href="https://github.com/Ryangendel/" style={{height:"40px", width:"40px", display:"inline"}}></img>
-              <img src="/images/linkedin-2_trans.png" href="https://www.linkedin.com/in/ryan-gendel" style={{marginLeft:"5%"}}></img>
+              <img src="/images/linkedin-2.png" href="https://www.linkedin.com/in/ryan-gendel" style={{marginLeft:"5%"}}></img>
           </li>
         </ul>
       }
