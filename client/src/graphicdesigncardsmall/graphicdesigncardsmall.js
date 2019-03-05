@@ -12,7 +12,7 @@ const CardExample = (props) => (
           <CardTitle className="cardtitle">{props.frontTitle}</CardTitle>
           <CardSubtitle style={{marginBottom:"7px"}} className="cardsubtitle ">{props.workPlace}</CardSubtitle>
            {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>  */}
-          <ModalExample className ="small"image={props.image} title={props.title}/>
+          <ModalExample className ="small" image={props.image} title={props.title}/>
           {/* <Button>Button</Button> */}
         </CardBody>
       </Card>
