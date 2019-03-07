@@ -17,7 +17,7 @@ const Graphicdesign = (props) => {
 </Container>
       
       
-      <Container className ="Card" >
+      <Container>
 {/* <Row>
   <Col xs="3" className='grid-example'></Col>
   <Col xs="3" className='grid-example' style={{background:"white", height:"250px" }}></Col>
@@ -26,17 +26,17 @@ const Graphicdesign = (props) => {
 </Row> */}
 
 <Row style={{marginBottom:"7%"}}>
-  <Col className='example1'><GraphicDesignCards image={"https://i.imgur.com/d7EeYY0.jpg"} workPlace ={"Met Media"} frontTitle={"Legends of Auraria"} title={"In The Newspaper"}/></Col>
-  <Col className='example2'><GraphicDesignCards image={"https://i.imgur.com/zAfcLzo.jpg"} workPlace ={"Preferred Meals"} frontTitle={"Blast Off Campaign"} title={"Wall Poster for 1000+ Schools"}/></Col>
-  <Col className='example3'><GraphicDesignCards image={"https://i.imgur.com/gohjqJj.jpg"} workPlace ={"Met Media"} frontTitle={"Free Beer?"} title={"Nominated For A College Media Business and Advertising (CMBAM) Award"}/></Col>
-  <Col className='example4'><GraphicDesignCards image={"https://i.imgur.com/BtzRzIsr.jpg"} workPlace ={"Preferred Meals"} frontTitle={"Marketing Collateral"} title={"Trade Show Flyer"}/></Col>
+  <Col className='example1 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCards image={"https://i.imgur.com/d7EeYY0.jpg"} workPlace ={"Met Media"} frontTitle={"Legends of Auraria"} title={"In The Newspaper"}/></Col>
+  <Col className='example2 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCards image={"https://i.imgur.com/zAfcLzo.jpg"} workPlace ={"Preferred Meals"} frontTitle={"Blast Off Campaign"} title={"Wall Poster for 1000+ Schools"}/></Col>
+  <Col className='example3 w-100 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCards image={"https://i.imgur.com/gohjqJj.jpg"} workPlace ={"Met Media"} frontTitle={"Free Beer?"} title={"Nominated For A College Media Business and Advertising (CMBAM) Award"}/></Col>
+  <Col className='example4 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCards image={"https://i.imgur.com/BtzRzIsr.jpg"} workPlace ={"Preferred Meals"} frontTitle={"Marketing Collateral"} title={"Trade Show Flyer"}/></Col>
 </Row>
 
 <Row style={{marginBottom:"10%"}}>
-  <Col xs="3" className='example5'><GraphicDesignCards astyle = {{background:"blue"}} image={"https://i.imgur.com/Nkw549C.jpg"} workPlace ={"Met Media"} frontTitle={"First Full Page"}  title={"First Full Page Ad"}/></Col>
-  <Col xs="3" className='example6 small'><GraphicDesignCardSmall image={"https://i.imgur.com/9BkjaAu.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Emmy Winning Newscast"}/></Col>
-  <Col xs="3" className='example7 small'><GraphicDesignCardSmall image={"https://i.imgur.com/1ehfECm.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Spanish Newscast"}/></Col>
-  <Col xs="3" className='example8 small'><GraphicDesignCardSmall image={"https://i.imgur.com/nd0DV9p.png"} workPlace ={"Met Media"} frontTitle={"SES Logo"} title={"Logo For The Student Economic Society"}/></Col>
+  <Col xs="3" className='example5 w-100 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCards style = {{background:"blue"}} image={"https://i.imgur.com/Nkw549C.jpg"} workPlace ={"Met Media"} frontTitle={"First Full Page"}  title={"First Full Page Ad"}/></Col>
+  <Col xs="3" className='example6 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCardSmall image={"https://i.imgur.com/9BkjaAu.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Emmy Winning Newscast"}/></Col>
+  <Col xs="3" className='example7 w-100 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCardSmall image={"https://i.imgur.com/1ehfECm.png"} workPlace ={"Met Media"} frontTitle={"Lower 1/3"}  title={"Lower Third For Spanish Newscast"}/></Col>
+  <Col xs="3" className='example8 col-sm-6 col-md-3 col-lg-3 col-6'><GraphicDesignCardSmall image={"https://i.imgur.com/nd0DV9p.png"} workPlace ={"Met Media"} frontTitle={"SES Logo"} title={"Logo For The Student Economic Society"}/></Col>
 </Row >
 </Container>
 </div>

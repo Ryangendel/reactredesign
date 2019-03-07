@@ -126,8 +126,8 @@ blur={{ min: -45, max: 45 }}
     </Parallax>
     
     {/* MAP */}
-    <div id="contact" style={{background:"#dfe0e0", padding:"60px"}}>
-          <h1  className="sectionTitles"style={{textAlign:"center", fontSize:"4em", marginBottom:"20px",letterSpacing:"-6px", color:"#1d2c33"}}>contact info</h1>
+    <div id="contact" style={{background:"#dfe0e0"}}>
+          <h1  className="sectionTitles">contact info</h1>
           <Container style={{marginTop:"40px", marginBottom:"0"}} className="GoogleMaps">
             <Row style={{height:"350px" }}>
             <Col xs="6" className='example8'>
@@ -138,11 +138,11 @@ blur={{ min: -45, max: 45 }}
           </Col>
           </Row>
           </Container>
-          </div>      
+    </div>      
     
     {/* FOOTER */}
 
-    <Footer style={{backgroundColor:"#0b4f6c", border: "1px solid #20BF55;"}}
+    <Footer style={{backgroundColor:"#0b4f6c", border: "1px solid #20BF55"}}
       // copyrights="&copy 2015 Copyright Text"
       moreLinks={
         <a className="grey-text text-lighten-4 right" href="#!">
@@ -150,24 +150,23 @@ blur={{ min: -45, max: 45 }}
         </a>
       }
       links={
-        <ul style={{marginLeft:"60%"}}> 
+        <ul> 
           <li>
             
-              <img src="https://img.icons8.com/metro/1600/github.png" href="https://github.com/Ryangendel/" style={{height:"40px", width:"40px", display:"inline"}}></img>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" href="https://www.linkedin.com/in/ryan-gendel" style={{height:"40px", width:"40px",marginLeft:"5%"}}></img>
+              <img className="icon" src="/images/github-2_white.png" href="https://github.com/Ryangendel/"></img>
+              <img className="icon" src="/images/linkedin-5_white.png" href="https://www.linkedin.com/in/ryan-gendel" style={{marginLeft:"5%"}}></img>
           </li>
         </ul>
       }
-      className="example"
-    >
-      <h5 className="white-text">Thanks for Visiting</h5>
-      <p className="grey-text text-lighten-4">
-        Also feel free to email me at <a href="mailto:gendel.ryan@gmail.com?Subject=Portfolio%20Email" target="_top">gendel.ryan@gmail.com</a>
+      className="example">
+      <h5 className="white-text inside">Thanks for Visiting</h5>
+      <p className="grey-text text-lighten-4 inside">
+        Also feel free to email me at <a className="email" href="mailto:gendel.ryan@gmail.com?Subject=Portfolio%20Email" target="_top">gendel.ryan@gmail.com</a>
       </p>
     </Footer>
   
     
-    </div>
+  </div>
   
 );
 export default MegaBox;

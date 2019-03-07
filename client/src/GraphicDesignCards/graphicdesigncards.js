@@ -4,11 +4,10 @@ CardTitle, CardSubtitle, Button } from 'reactstrap';
 import ModalExample from "../modal/modal.js"
 import "./GraphicDesignCards.css"
 const CardExample = (props) => (
-  <div>
+ 
       <Card>       
         <CardImg top width="100%" src={props.image} alt="Card image cap" />
-        <CardBody 
-        style = {{background:"white", marginTop:"-110px", width:"101%", marginLeft:"-1px"}}>
+        <CardBody className="card-box">
           <CardTitle className="adsLargeTit">{props.frontTitle}</CardTitle>
           <CardSubtitle style={{marginBottom:"7px"}}className="adsLargeSub">{props.workPlace}</CardSubtitle>
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
@@ -17,7 +16,7 @@ const CardExample = (props) => (
         </CardBody>
       </Card>
       
-      </div>
+    
   );
 
 

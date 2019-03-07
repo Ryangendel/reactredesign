@@ -15,7 +15,7 @@ const WebDesign = () => (
 </Container>
 
 
-<Row style={{margin:"1%"}}>
+<Row>
   <Col s={3} className='grid-example'><WebDevCards style={{lineHeight:"3px"}}
         title = {"JavaScript Logic"}  
         link ={"https://ryangendel.github.io/Homework-3/"} 
@@ -59,7 +59,7 @@ const WebDesign = () => (
 
 {/* SECOND LINE */}
 
-<Row style={{margin:"1%"}}>
+<Row>
   <Col s={3} className='grid-example'><WebDevCards 
         title = {"React Game"}  
         link ={"https://limitless-dusk-86963.herokuapp.com/"} 
